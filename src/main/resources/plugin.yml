@@ -1,0 +1,5 @@
+name: yStructureAPI
+main: ru.yarka.structureapi.NotAPI
+api: 1.0.9
+version: 0.1.0
+author: YarkaDev
