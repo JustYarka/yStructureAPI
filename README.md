@@ -1,6 +1,6 @@
 # yStructureAPI
 Простое API для работы с осями структурного блока
-##Пример
+## Пример
 ```kotlin
 open class Test: PluginBase(), Listener {
 
