@@ -6,11 +6,8 @@ import cn.nukkit.plugin.PluginBase
 class NotAPI: PluginBase(), Listener {
 
     companion object {
-        private lateinit var instance: NotAPI
-
-        fun getInstance(): NotAPI {
-            return instance
-        }
+        lateinit var instance: NotAPI
+        private set;
     }
 
     override fun onEnable() {

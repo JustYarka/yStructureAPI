@@ -27,7 +27,7 @@ class API {
                 override fun run() {
                     player.dataPacket(packet)
                 }
-            }.runTaskLater(NotAPI.getInstance(), 1)
+            }.runTaskLater(NotAPI.instance, 1)
 
             return Pair(id, structureNBT.getPosition())
         }
