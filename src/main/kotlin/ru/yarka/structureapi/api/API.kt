@@ -27,7 +27,7 @@ class API {
                 override fun run() {
                     player.dataPacket(packet)
                 }
-            }.runTaskLater(NotAPI.instance, 1)
+            }.runTaskLater(NotAPI.instance, 3) //почему 3 тика? потому что если меньше то майну пофиг на то что ты ему кидаешь почему то
 
             return Pair(id, structureNBT.getPosition())
         }
