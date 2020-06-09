@@ -13,7 +13,6 @@ class API {
     companion object {
 
         fun sendStructureAxes(player: Player, structureNBT: StructureNBT): Pair<Int, Vector3> {
-            val playerMap = HashMap<String, Any>()
             val id = player.level.getBlockIdAt(structureNBT.getPosition().floorX, structureNBT.getPosition().floorY, structureNBT.getPosition().floorZ)
 
             player.level.setBlockIdAt(structureNBT.getPosition().floorX, structureNBT.getPosition().floorY, structureNBT.getPosition().floorZ, 252)
