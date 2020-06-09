@@ -7,7 +7,7 @@ class NotAPI: PluginBase(), Listener {
 
     companion object {
         lateinit var instance: NotAPI
-        private set;
+        private set
     }
 
     override fun onEnable() {
